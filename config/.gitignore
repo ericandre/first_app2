@@ -16,6 +16,8 @@ your text editor
 /log/*.log
 /tmp
 
+/config/database.yml
+
 #Ignore other files
 doc/
 *.swp
@@ -23,5 +25,5 @@ doc/
 .project
 .DS_Store
 .idea
-/config/database.yml
+
 

@@ -20,7 +20,7 @@ test:
 
 production:
   adapter: mysql
-  database: somedatabasename
+  database: rails_server
   host: localhost
-  username: someusername
-  password: somepassword
+  username: ericandre615
+  password: myrailsserver615

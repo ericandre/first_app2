@@ -34,7 +34,11 @@ gem 'jquery-rails', '2.0.2'
 # gem 'unicorn'
 
 # Deploy with Capistrano
-# gem 'capistrano'
+gem 'capistrano'
 
 # To use debugger
 # gem 'debugger'
+
+group :production do
+  gem 'mysql', '2.9.1'
+end
